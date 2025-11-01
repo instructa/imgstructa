@@ -7,18 +7,12 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b bg-background/60 px-4 py-3 backdrop-blur">
       <div className="container mx-auto flex items-center justify-between">
         <Link to="/" className="font-bold text-2xl text-foreground">
-          ex0
+          Imgstructa AI Image
         </Link>
 
         <nav className="flex items-center gap-6">
-          <Link
-            to="/docs"
-            className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
-          >
-            Docs
-          </Link>
           <a
-            href="https://github.com/instructa/constructa-starter-min"
+            href="https://github.com/instructa/imgstructa"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors flex items-center gap-1"
